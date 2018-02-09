@@ -2,7 +2,7 @@
 function doStuffToNumberFive(callback) {
   return callback(5)
 }
-
+doStuffToNumberFive(5);
 // define some callback functions
 var plusTwo =  function(num) {
   return num + 2
